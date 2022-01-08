@@ -3,7 +3,7 @@
 This project has been created using **Vite**, you can now run:
 
 ```
-npm run install
+npm install
 ```
 
 to install all dependencies
