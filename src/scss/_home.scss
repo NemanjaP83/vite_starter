@@ -1,0 +1,13 @@
+// utilities
+@use './utilities/variables' as var;
+@use './utilities/typography';
+@use './utilities/mixins';
+
+// components
+@use './components/button';
+
+body {
+  background-color: var(--bg-color);
+  font-family: typography.$main-font;
+  @include mixins.content-center;
+}
