@@ -33,11 +33,12 @@ dd {
 body {
   min-height: 100vh;
   scroll-behavior: smooth;
-  text-rendering: optimizeSpeed;
+  text-rendering: optimizespeed;
   line-height: 1.5;
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */
+/* stylelint-disable-next-line no-duplicate-selectors */
 ul[class],
 ol[class] {
   list-style: none;

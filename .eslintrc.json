@@ -11,10 +11,7 @@
   "plugins": ["prettier"],
   "ignorePatterns": ["vite.config.js", "postcss.config.js"],
   "rules": {
-    "prettier/prettier": [
-      "error",
-      { "endOfLine": "auto", "singleQuote": true }
-    ],
+    "prettier/prettier": ["error", { "endOfLine": "auto" }],
     "no-undef": "warn",
     "no-unused-vars": "warn",
     "arrow-body-style": "off",
